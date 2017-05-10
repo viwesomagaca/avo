@@ -1,6 +1,6 @@
-describe("The best of deals"), function(){
-	it("should return the best place to buy Avocados!", function(){
+describe("Avocado Function", function(){
+	it("should convert a string into an array", function(){
 		
-	assert.equal(bestDeal("1 for R3, 2 for R7, 3 for R10, 5 for R14.50."))	
-	})
-})
+		assert.equal(separateAvo(4));
+	});
+});
